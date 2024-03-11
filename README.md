@@ -12,13 +12,13 @@ sudo dpkg -i Nessus-10.7.1-raspberrypios_armhf.deb
 
 Once the install has passed, you must now start the nessus process, then check that it is in fact running. You can do this by running the following commands
 
-systemctl start nessusd.service # this will start the service, authenticate using credentials.
+**systemctl start nessusd.service** # this will start the service, authenticate using credentials.
 
 When authentication completes, run: 
 
-systemctl status nessusd.service # this will ensure that the service is running. 
+**systemctl status nessusd.service** # this will ensure that the service is running. 
 
-Make sure there are no errors and that your OS instruction set matches Nessus instruction set (32-bit, 32-bit). (errors occured when downloading 64-bit headless Raspberry Pi OS and downloading 32-bit Nessus Software, reformatted Pi with 32-bit OS and error no longer occred)
+Make sure there are no errors and that your OS instruction set matches Nessus instruction set (32-bit, 32-bit). (errors occured when downloading 64-bit headless Raspberry Pi OS and downloading 32-bit Nessus Software, reformatted Pi with 32-bit OS and error no longer occured)
 
 Once you ensure that the service is running, go to your browser and enter, https://*raspberrypiIP*:8834 
 
