@@ -8,7 +8,7 @@ Completed this project by installing a headless Linux OS onto the Raspberry Pi a
 
 Once the download is complete, ls and you should see a .zip file. dpkg it using:
 
-sudo dpkg -i Nessus-10.7.1-raspberrypios_armhf.deb
+**sudo dpkg -i Nessus-10.7.1-raspberrypios_armhf.deb**
 
 Once the install has passed, you must now start the nessus process, then check that it is in fact running. You can do this by running the following commands
 
