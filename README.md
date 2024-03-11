@@ -20,7 +20,7 @@ When authentication completes, run:
 
 Make sure there are no errors and that your OS instruction set matches Nessus instruction set (32-bit, 32-bit). (errors occured when downloading 64-bit headless Raspberry Pi OS and downloading 32-bit Nessus Software, reformatted Pi with 32-bit OS and error no longer occured)
 
-Once you ensure that the service is running, go to your browser and enter, https://*raspberrypiIP*:8834 
+Once you ensure that the service is running, go to your browser and enter, https://*RaspberryPiAddress*:8834 
 
 If entered properly, you will be taken to the Nessus web interface that is being hosted from your RSPi. Allow the configuration process to take place, sign up for your account using Nessus Essentials as this will give you a limited amount of free scans for later use. 
 
