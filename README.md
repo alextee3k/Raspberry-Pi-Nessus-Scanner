@@ -2,9 +2,11 @@
 
 Completed this project by installing a headless Linux OS onto the Raspberry Pi and enabling SSH authentication. Once able to take control of the Pi remotely, install Nessus Vulnerability Scanning software using the following curl command: 
 
-**curl --request GET \
+``` python
+  curl --request GET \
   --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.7.1-raspberrypios_armhf.deb' \
-  --output 'Nessus-10.7.1-raspberrypios_armhf.deb'**
+  --output 'Nessus-10.7.1-raspberrypios_armhf.deb'
+```
 
 Once the download is complete, list files **(ls)** and you should see a .zip file. Unzip the file using:
 
