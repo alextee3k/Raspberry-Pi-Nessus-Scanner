@@ -8,7 +8,7 @@ Completed this project by installing a headless Linux OS onto the Raspberry Pi a
   --output 'Nessus-10.7.1-raspberrypios_armhf.deb'
 ```
 
-Once the download is complete, list files **(ls)** and you should see a .zip file. Unzip the file using:
+Once the download is complete, list files **(ls)** and you should see a Nessus file. Use the following commands:
 
 ``` bash
 sudo dpkg -i Nessus-10.7.1-raspberrypios_armhf.deb
